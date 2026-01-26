@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #444444;
+}
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+}
